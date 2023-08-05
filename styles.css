@@ -2,8 +2,8 @@ body {
     background-color: rgb(227, 241,204);
 }
 
-img{
-    border: 2px solid rgb(227, 241, 204);
+.image {
+    border: 5px solid green;
     border-radius: 10px;
     width: 500px; 
     height: 400px; 
@@ -22,11 +22,22 @@ img:hover{
 }
 
 .link-button {
+    font-size: 15px;
+    background: linear-gradient(145deg, #161718, #25282cd6);
     text-decoration: none;
-    color: black;
-    border: 1px solid gray;
-    background-color: #f2f2f2;
+    color: rgb(227, 227, 227);
     padding: 5px;
-    border-radius: 5px;
-    box-shadow: 2px 3px #888888;
+    border-radius: 20px;
+    transition: .5s;
+
+}
+
+.link-button:hover {
+    background: linear-gradient(145deg, #25282cd6, #161718);
+    border-radius: 20px;
+    color: #ed6a4c;
+    border-bottom: 2px solid #ed6a4c;
+    box-shadow: 5px 5px 20px #ed6a4c;
+    transition: .5s;
+
 }
