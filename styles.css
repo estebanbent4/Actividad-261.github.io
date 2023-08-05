@@ -2,6 +2,12 @@ body {
     background-color: rgb(255, 255, 165);
 }
 
+.centrado{
+    display: flex;
+    justify-content: center;
+}
+
+
 .image{
     border: 5px solid green;
     border-radius: 10px;
