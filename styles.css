@@ -35,17 +35,25 @@ p{
 .image:hover{
     transform: translateY(-20px);
     width: 950px;
-    border: 3px solid rgba(218, 76, 24, 0.571);
-    box-shadow: 5px 5px 11px rgba(202, 66, 17, 0.729);
+    border: 3px solid rgb(236, 90, 37);
+    box-shadow: 5px 5px 15px rgb(236, 90, 37);
     transition: .5s;
 }
 
 .link-button {
     text-decoration: none;
-    color: black;
+    color: rgb(214, 214, 214);
     border: 1px solid gray;
-    background-color: #f2f2f2;
+    background: linear-gradient(145deg, #1b1d1f, #535355d4);
     padding: 5px;
     border-radius: 5px;
-    box-shadow: 2px 3px #888888;
+    transition: .5s;
+}
+
+.link-button:hover{
+    background: linear-gradient(145deg, #535355d4,#1b1d1f );
+    box-shadow: 5px 5px 15px rgb(236, 90, 37);
+    border-bottom: 1px solid rgb(236, 90, 37);
+    color: orangered;
+    transition: .5s;
 }
