@@ -1,61 +1,19 @@
 body {
     background-color: rgb(255, 255, 165);
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
-}
-h1 {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 28px;
-    font-weight: bold;
-}
-p{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-
 }
 
-.centrado{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 .image{
     border: 5px solid green;
     border-radius: 10px;
-    width: 500px; 
-    height: 400px; 
-    object-fit: cover;
-    transition: .5s;
-}
-
-img:hover{
-    transform: translateY(-20px);
-    border-radius: 10px;
-    transform: scale(1.1);
-    transition: .5s;
-    border: 2px solid #ed6a4c;
-    box-shadow:   5px 5px 20px #ed6a4c;
-    cursor: pointer;
+    height: 400px;
 }
 
 .link-button {
-    font-size: 15px;
-    background: linear-gradient(145deg, #161718, #25282cd6);
     text-decoration: none;
-    color: rgb(227, 227, 227);
+    color: black;
+    border: 1px solid gray;
+    background-color: #f2f2f2;
     padding: 5px;
-    border-radius: 20px;
-    transition: .5s;
-
-}
-
-.link-button:hover {
-    background: linear-gradient(145deg, #25282cd6, #161718);
-    border-radius: 20px;
-    color: #ed6a4c;
-    border-bottom: 2px solid #ed6a4c;
-    box-shadow: 5px 5px 20px #ed6a4c;
-    transition: .5s;
-
+    border-radius: 5px;
+    box-shadow: 2px 3px #888888;
 }
