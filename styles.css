@@ -25,9 +25,19 @@ p{
 
 
 .image{
-    border: 5px solid green;
+    border: 5px solid rgb(227, 241, 204);
     border-radius: 10px;
     height: 400px;
+    width: 900px;
+    transition: .5s;
+}
+
+.image:hover{
+    transform: translateY(-20px);
+    width: 950px;
+    border: 3px solid rgba(218, 76, 24, 0.571);
+    box-shadow: 5px 5px 11px rgba(202, 66, 17, 0.729);
+    transition: .5s;
 }
 
 .link-button {
