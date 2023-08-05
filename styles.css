@@ -1,7 +1,23 @@
 body {
     background-color: rgb(227, 241, 204);
+    
 }
 
+h1, h2, p{
+    font-family: 'IBM Plex Mono', monospace;
+    color: rgb(46, 46, 85);
+    line-height: 1.5;
+}
+
+h1{
+    font-size: 40px;
+}
+h2{
+    font-size: 30px;
+}
+p{
+    text-align: center;
+}
 .centrado{
     display: flex;
     justify-content: center;
