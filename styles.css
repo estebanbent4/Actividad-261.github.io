@@ -1,11 +1,24 @@
 body {
-    background-color: rgb(241, 227, 204);
+    background-color: rgb(227, 241,204);
 }
 
-.image{
-    border: 5px solid green;
+img{
+    border: 2px solid rgb(227, 241, 204);
     border-radius: 10px;
-    height: 400px;
+    width: 500px; 
+    height: 400px; 
+    object-fit: cover;
+    transition: .5s;
+}
+
+img:hover{
+    transform: translateY(-20px);
+    border-radius: 10px;
+    transform: scale(1.1);
+    transition: .5s;
+    border: 2px solid #ed6a4c;
+    box-shadow:   5px 5px 20px #ed6a4c;
+    cursor: pointer;
 }
 
 .link-button {
